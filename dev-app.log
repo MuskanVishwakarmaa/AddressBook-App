@@ -1342,3 +1342,10 @@ This generated password is for development use only. Your security configuration
 2025-03-18T17:23:37.007+05:30  INFO 11732 --- [addressbook] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-03-18T17:23:37.008+05:30  INFO 11732 --- [addressbook] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-03-18T17:23:37.009+05:30  INFO 11732 --- [addressbook] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-18T17:26:15.195+05:30  INFO 11732 --- [addressbook] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-03-18T17:26:15.856+05:30  INFO 11732 --- [addressbook] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-03-18T17:26:15.860+05:30  INFO 11732 --- [addressbook] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-18T17:26:15.867+05:30  INFO 11732 --- [addressbook] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-18T17:26:16.019+05:30  INFO 11732 --- [addressbook] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-18T17:26:16.022+05:30  INFO 11732 --- [addressbook] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-18T17:26:16.033+05:30  INFO 11732 --- [addressbook] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
