@@ -1,12 +1,14 @@
 package com.example.addressbook.model;
-
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import lombok.*;
+import org.springframework.data.redis.core.RedisHash;
 
-@Table(name = "address_table")
+import java.io.Serializable;
+
+
 @Data
 @Setter
 @Getter
@@ -14,7 +16,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class Contact {//Entity
+public class Contact implements Serializable {//Entity
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
